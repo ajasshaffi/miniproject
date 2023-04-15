@@ -1,0 +1,146 @@
+.header{
+    background: #a6a2b8;
+    width: 100%;
+    height: 85px;
+    clear: none;
+
+}
+.logo{
+    width: 40%;
+    float: left;
+    height: 85px;
+    font-size:34px;
+    font-weight:500;
+    text-transform:uppercase;
+    padding-left: 187px;
+    padding-top: 19px;
+}
+.nav{
+    background: #7fd77c;
+    width: 60%;
+    height: 85px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: -17px;
+    margin-right: -9px;
+    margin-left: -8px;
+}
+.para{
+    text-align: center;
+    padding-top: 63px;
+}
+.chat{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    height: 220px;
+}
+.row1{
+    padding-left: 126px;
+    padding-top: 91px;
+}
+.sym{
+    height: 63px;
+    width: 236px;
+
+}
+.rem{
+    height: 63px;
+    width: 236px;
+
+}
+.container{
+    background-color: #50C878;
+}
+.footer {
+        width: 100%;
+        background-color: black;
+        padding-top: 3px;
+        margin-top: 32px;
+        margin-left: -9px;
+        margin-right: -9px;
+      }
+      .footer .col {
+        width: 190px;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+        padding: 20px;
+      }
+      .footer .col h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        line-height: 17px;
+        padding: 10px 0;
+        color: #FF0063;
+        text-transform: uppercase;
+      }
+      .footer .col ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .footer .col ul li {
+        color: white;
+        font-size: 12px;
+        padding: 5px 0px;
+      }
+      .address ul li {
+        display: inline-block;
+        padding-right: 5px !important;
+      }
+      
+      .footer .col ul li:hover {
+        cursor: pointer;
+        color: lightgray;
+        font-weight: bold;
+      }
+      .clearfix {
+        clear: both;
+      }
+      @media only screen and (min-width: 1280px) {
+        .contain {
+          width: 1200px;
+          margin: 0 auto;
+        }
+      }
+      @media only screen and (max-width: 1139px) {
+        .contain .address {
+          width: 1000px;
+          display: block;
+        }
+        .address h2 {
+          margin: 0px;
+        }
+      }
+      @media only screen and (max-width: 950px) {
+        .footer .col {
+          width: 33%;
+        }
+        .footer .col h2 {
+          font-size: 14px;
+        }
+        .footer .col ul li {
+          font-size: 13px;
+        }
+      }
+      @media only screen and (max-width: 500px) {
+          .footer .col {
+            width: 50%;
+          }
+          .footer .col h2 {
+            font-size: 14px;
+          }
+          .footer .col ul li {
+            font-size: 13px;
+          }
+      }
+      @media only screen and (max-width: 340px) {
+        .footer .col {
+          width: 100%;
+        }
+}
